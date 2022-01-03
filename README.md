@@ -2,6 +2,7 @@ About version
 * version: 1.0
 
 Details
+
 ##	Version restrictions
 
 - [x] Dynamic (Windows, 32 bit .dll) and shared (Mac/Unix/Linux, x86 .so) libraries only available;
