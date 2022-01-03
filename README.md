@@ -1,4 +1,4 @@
-## About version
+## Agreement
 
 The library is designed to work with documents in JSON format.
 The library is distributed under the terms of the FreeWare license with additional restrictions:
@@ -8,14 +8,12 @@ The library is distributed under the terms of the FreeWare license with addition
 
 Current library version is *1.0-stripped*.
 
-##  Details
-
-### Version restrictions
+## Version restrictions
 
 - Dynamic (Windows, 32 bit .dll) and shared (Mac/Unix/Linux, x86 .so) libraries only available;
 - No source code access available;
 - Only old library version available;
-- Thread safety support;
+- No thread safety support;
 - Only JSON decoding, getting the string value of the element and freeing the memory occupied by the document data is allowed;
 - There is no support for UTF-16;
 - Contains only critical updates;
@@ -24,9 +22,14 @@ Current library version is *1.0-stripped*.
 - No access to private repositories.
 
 ## Library Standard Functions 1.0+
-- json_decode (char \* string, struct json_t \*\* json)
-> *json string to object representation decode function*
-- json_select (struct json_t \* json, char \* path, char \*\* output)
-> *function to get the string value of a json document element*
-- json_delete (struct json_t \*\* json, char \* path, bool cleanup)
-> *function to free up memory occupied by json object*
+- [x] **json_decode**: *json string to object representation decode function*;
+- [x] **json_select**: *function for getting the string value of an element at the specified multilevel path*;
+- [x] **json_delete**: *function to free up memory occupied by json object*;
+- [ ] **json_insert**: *function for creating a new element along the specified multilevel path*;
+- [ ] **json_update**: *function of updating an element (value, type, etc.) along the specified multilevel path*;
+
+##  Access to private repository and source code
+
+You can **access private project resources** provided:
+- project support (ЕТН: 0xF864B8b8284CbaC48954781548A73F171bE15249);
+- compliance with the agreement.
