@@ -1,6 +1,6 @@
 ## Agreement
 
-The library is designed to work with documents in JSON format.
+The library is designed to work with documents in JSON format. The library uses a non-recursive approach in its work, eliminating memory leaks.
 The library is distributed under the terms of the FreeWare license with additional restrictions:
 - allowed to use in commercial and non-commercial software without any restrictions, but keeping all library files unchanged;
 - it is not allowed to make any changes to the source files, static libraries and related files, copy and use the code of the library files;
