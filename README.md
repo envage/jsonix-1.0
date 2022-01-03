@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-**About**
-=======
-**ABOUT**
->>>>>>> a65945232ead7c31235676c12851b0662bcdb6f6
+#	About version
 -------------------
 * version: 1.0
 
-**Details**
+#	Details
 -------------------
 ##	Version restrictions
 
