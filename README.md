@@ -22,6 +22,9 @@ Current library version is *1.0-stripped*.
 - No access to private repositories.
 
 ## Library Standard Functions 1.0+
+
+The format is used to access the element: *\/\<object key name\>\/...\/\{\<array index\>\}\/...*
+								  
 - [x] **json_decode**: *json string to object representation decode function*;
 - [x] **json_select**: *function for getting the string value of an element at the specified multilevel path*;
 - [x] **json_delete**: *function to free up memory occupied by json object*;
